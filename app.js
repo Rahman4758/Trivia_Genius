@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(corsConfig);
 
 // ✅ Routes
-app.use("/api", router);
+app.use("/", router);
 
 // ✅ Error Handling
 app.use(errorHandler);
